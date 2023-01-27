@@ -1,10 +1,11 @@
 function costo_iva(monto , tipo_producto){
+    let costo_iva;
     if( tipo_producto == 1 ){
-        let costo_iva = monto*0.21
+        costo_iva = monto*0.21
         return costo_iva
     }
     else{
-        let costo_iva = 0
+        costo_iva = 0
         return costo_iva
     }
 
